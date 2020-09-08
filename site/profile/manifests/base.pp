@@ -1,5 +1,5 @@
-class profie::base{
+class profile::base {
   user {'admin':
-    ensure => presents,
-    }
+    ensure => present
+  }
 }
