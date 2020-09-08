@@ -5,3 +5,8 @@ node default {
     owner   => 'root',
   }
 }
+
+node 'master.dom37.lab.forescout.com' {
+  include role::master_server
+}
+
